@@ -1,0 +1,5 @@
+ guessed := []rune(guess)[0]
+  if guessedLetters[guessed] {
+   fmt.Println("You've already guessed this letter.")
+   continue
+  }
